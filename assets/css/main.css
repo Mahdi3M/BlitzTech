@@ -1855,9 +1855,10 @@ p.excerpt {
 }
 
 .comment-template h4 {
-  font-size: 25px;
+  font-size: 35px;
   font-weight: 600;
   margin-bottom: 50px;
+  color: #fff;
 }
 
 .single-comment-body {
@@ -1905,9 +1906,18 @@ span.comment-date {
 }
 
 .comment-text-body p {
-  color: #888;
+  color: #fff;
   line-height: 2;
   margin: 0;
+}
+
+.comment-template{
+  margin: 50px 0;
+}
+
+.comment-template ::placeholder{
+  color: #fff;
+  opacity: 0.4;
 }
 
 .comment-template h4 {
@@ -1915,34 +1925,38 @@ span.comment-date {
 }
 
 .comment-template > p {
+  color: #fff;
   opacity: 0.7;
   margin-bottom: 30px;
 }
 
 .comment-template form p input[type=text] {
-  border: 1px solid #ddd;
+  border: 1px solid #81878a;
   width: 49%;
   padding: 15px;
   border-radius: 5px;
   font-size: 15px;
+  background-color: #81878a;
   color: #051922;
 }
 
 .comment-template form p input[type=email] {
-  border: 1px solid #ddd;
+  border: 1px solid #81878a;
   width: 49%;
   padding: 15px;
   border-radius: 5px;
   font-size: 15px;
   color: #051922;
+  background-color: #81878a;
   margin-left: 10px;
 }
 
 .comment-template form p textarea {
-  border: 1px solid #ddd;
+  border: 1px solid #81878a;
   padding: 15px;
   font-size: 15px;
   color: #051922;
+  background-color: #81878a;
   border-radius: 5px;
   height: 250px;
   resize: none;
@@ -2572,8 +2586,8 @@ a.cart-btn i {
 
 .single-product-img img {
   border-radius: 5px;
-  -webkit-box-shadow: 0 0 20px #ddd;
-  box-shadow: 0 0 20px #ddd;
+  -webkit-box-shadow: 0 0 20px #000;
+  box-shadow: 0 0 20px #000;
 }
 
 .single-product-content h3 {
@@ -2582,16 +2596,15 @@ a.cart-btn i {
 }
 
 p.single-product-pricing span {
-  font-size: 18px;
+  font-size: 25px;
   display: block;
-  opacity: 0.8;
   margin-bottom: 10px;
   font-weight: 400;
 }
 
 .single-product-content p {
   font-size: 15px;
-  color: #555;
+  color: rgb(218, 218, 218);
   line-height: 1.8;
 }
 
@@ -2599,7 +2612,7 @@ p.single-product-pricing span {
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 10px;
-  color: #051922;
+  color: #fff;
   line-height: inherit;
 }
 
@@ -2844,6 +2857,38 @@ table.order-details tbody td {
   padding-bottom: 50px;
   border-radius: 5px;
 }
+
+.specification-tab {
+  background-color: #071F2C;
+  color: #fff;
+  line-height: 35px;
+  margin-bottom: 100px;
+}
+
+.section-head h2{
+  text-align: center;
+  padding: 25px;
+  color: #fff;
+}
+
+.data-table {
+  margin: auto;
+  border-bottom: 1px, solid, #fff;
+}
+
+.data-table thead{
+  background-color: #20475c;
+}
+
+.specification-tab table tr {
+  border-bottom: 1px solid black;
+  opacity: 0.8;
+}​
+
+.specification-tab table tr:last-child { 
+  border-bottom: none; 
+}
+
 
 /* -----------------------------------------------------------------------------
 
