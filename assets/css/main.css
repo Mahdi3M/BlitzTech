@@ -1963,6 +1963,10 @@ span.comment-date {
   width: 100%;
 }
 
+.alert{
+  display: none;
+}
+
 .sidebar-section {
   margin-left: 30px;
 }
