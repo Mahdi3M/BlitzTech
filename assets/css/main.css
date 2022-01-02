@@ -2893,6 +2893,14 @@ table.order-details tbody td {
   border-bottom: none; 
 }
 
+.name{
+  width: 200px;
+}
+
+.value{
+  width: 750px;
+}
+
 .review{
   background-color: #81878A;
   border-radius: 5px;
