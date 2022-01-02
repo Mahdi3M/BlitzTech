@@ -17,9 +17,9 @@ var database = firebase.database();
 function sendMessage(){
     var today = new Date();
     var date = today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear();
-    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-    var dateTime = date+' '+time;
-    dateTime=dateTime.toString();
+    // var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    // var dateTime = date+' '+time;
+    var dateTime=date.toString();
 
 
     //getting the values to send to the firebase database
@@ -42,26 +42,25 @@ leadsRef.on('value', function(snapshot) {
       var childData = childSnapshot.val();
       // console.log(childData.message)
 
+        var by = document.createTextNode('By ');
         var name = document.createTextNode(childData.Name);
-        var email = document.createTextNode(childData.Email);
         var comment = document.createTextNode(childData.Comment);
-        var date = document.createTextNode('           ' + childData.Date);
+        var date = document.createTextNode(' on '+childData.Date);
 
 
-
-
-        var ult = document.getElementById("scoreList");
-        var lit = document.createElement("li");
+        var ult = document.getElementById("comList");
+        var lit = document.createElement("li");        
+        var pt = document.createElement("p");
+        var spant = document.createElement("span");
         lit.setAttribute('class','uls');
-        lit.appendChild(name);
-        lit.appendChild(date)
-        lit.appendChild(document.createElement('br'));
-        lit.appendChild(email);
-        lit.appendChild(document.createElement('br'));
-        lit.appendChild(document.createElement('br'));
-        lit.appendChild(comment);
-        lit.appendChild(document.createElement('br'));
+        pt.appendChild(comment);
+        lit.appendChild(pt);
+        lit.appendChild(by);
+        spant.appendChild(name);
+        lit.appendChild(spant);
+        lit.appendChild(date);
         ult.appendChild(lit);
+        ult.appendChild(document.createElement('hr'));
 
 
     });

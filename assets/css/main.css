@@ -2893,6 +2893,30 @@ table.order-details tbody td {
   border-bottom: none; 
 }
 
+.review{
+  background-color: #81878A;
+  border-radius: 5px;
+}
+
+.uls{
+  border-bottom: 1px, solid, #000;
+}
+
+#comList{
+  list-style-type: none;
+  padding: 20px 50px;
+  margin: 0;
+  color: #333;
+}
+
+#comList p{
+  font-size: 20px;
+  font-weight: 520;
+}
+
+#comList span{
+  color: #000;
+}
 
 /* -----------------------------------------------------------------------------
 
