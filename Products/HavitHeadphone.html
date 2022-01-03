@@ -218,6 +218,27 @@
                                     </table>
     </section>
 
+	<div class="container">
+		<div class="comment-template">
+			<h4>Leave a comment</h4>
+			<p>If you have a comment dont feel hesitate to send us your opinion.</p>
+			<form id="contactForm" action="#">
+				<p>
+					<input id="C_name" type="text" placeholder="Your Name">
+					<input id="C_mail" type="email" placeholder="Your Email">
+				</p>
+				<p><textarea  name="comment" id="comment" cols="30" rows="10" placeholder="Your Message"></textarea></p>
+				<p><input id="btn" type="submit" onclick="sendMessage()" value="Submit"></p>
+			</form> <br> <br> <br>
+			<h4>Comments</h4>
+			<div class="review">
+				<ul id="comList">
+				</ul>
+			</div> 
+		</div>
+	</div>
+
+
 	<!-- footer -->
 	<div class="footer-area">
 		<div class="container">
