@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Firebase -->
+	<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase.js"></script>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta component="viewport" content="width=device-width, initial-scale=1">
+	<meta component="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
+
+	<!-- title -->
+	<title>BlitzTech</title>
+
+	<!-- favicon -->
+	<link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+	rel="stylesheet">
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="../assets/css/all.min.css">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+	<link href="../assets/bootstrap/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+	<!-- owl carousel -->
+	<link rel="stylesheet" href="../assets/css/owl.carousel.css">
+	<!-- magnific popup -->
+	<link rel="stylesheet" href="../assets/css/magnific-popup.css">
+	<!-- animate css -->
+	<link rel="stylesheet" href="../assets/css/animate.css">
+	<!-- mean menu css -->
+	<link rel="stylesheet" href="../assets/css/meanmenu.min.css">
+	<!-- main style -->
+	<link rel="stylesheet" href="../assets/css/main.css">
+	<!-- responsive -->
+	<link rel="stylesheet" href="../assets/css/responsive.css">
+
+</head>
+<body>
+	
+	<!--PreLoader-->
+    <div class="loader">
+        <div class="loader-inner">
+            <div class="circle"></div>
+        </div>
+    </div>
+    <!--PreLoader Ends-->
+	
+	<!-- header -->
+	<div class="top-header-area" id="sticker">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-sm-12 text-center">
+					<div class="main-menu-wrap">
+						<!-- logo -->
+						<div class="site-logo">
+							<a href="../index.html">
+								<img src="../assets/img/favicon.png" alt="">
+							</a>
+						</div>
+						<!-- logo -->
+
+						<!-- menu start -->
+						<nav class="main-menu">
+							<ul>
+								<li><a href="../index.html">Home</a></li>
+								<li><a href="../Components.html">Components</a>
+									<ul class="sub-menu">
+										<li><a href="#">Laptop</a></li>
+										<li><a href="#">Keyboard</a></li>
+										<li><a href="#">Mouse</a></li>
+										<li><a href="#">Headphone</a></li>
+										<li><a href="#">Router</a></li>
+										<li><a href="#">Printer</a></li>
+										<li><a href="#">Processor</a></li>
+										<li><a href="#">Graphics Card</a></li>
+										<li><a href="#">SSD</a></li>
+										<li><a href="#">Motherboard</a></li>
+										<li><a href="#">RAM</a></li>
+										<li><a href="#">Casing</a></li>
+									</ul>
+								</li>
+								<li><a href="../Compare.html">Compare</a></li>
+								<li><a href="../buildGuides.html">Build Guides</a></li>
+								<li><a href="../completedBuilds.html">Completed Builds</a></li>
+								<li><a href="../Shop.html">Shop</a></li>
+								<li><a href="../Sell.html">Sell</a></li>
+								<li>
+									<div class="header-icons">
+										<a class="mobile-hide search-bar-icon" href="#"><i class="fas fa-search"></i></a>
+									</div>
+								</li>
+							</ul>
+						</nav>
+						<a class="mobile-show search-bar-icon" href="#"><i class="fas fa-search"></i></a>
+						<div class="mobile-menu"></div>
+						<!-- menu end -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end header -->
+
+	<!-- search area -->
+	<div class="search-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<span class="close-btn"><i class="fas fa-window-close"></i></span>
+					<div class="search-bar">
+						<div class="search-bar-tablecell">
+							<h3>Search For:</h3>
+							<input type="text" placeholder="Keywords">
+							<button type="submit">Search <i class="fas fa-search"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end search arewa -->
+	
+	<!-- breadcrumb-section -->
+	<div class="breadcrumb-section breadcrumb-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2 text-center">
+					<div class="breadcrumb-text">
+                        <h1 id="item">THE MSI MACHINE</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end breadcrumb section -->
+
+    
+    <section class="module-subTitle">
+        <div class="subTitle">
+            <div class="section-head">
+            </div>
+        </div>
+    </section>
+
+    <div class="specification-tab container">
+        <div class="section-head">
+			<h2>Parts List</h2>
+		</div>
+        <table class="data-table flex-table" cellpadding="10" cellspacing="0">
+            <colgroup>
+				<col class="component">
+				<col class="selection">
+				<col class="price">
+			</colgroup>
+            <thead>
+				<tr>
+					<td class="heading-row">Component</td>
+                    <td class="heading-row">Selection</td>
+                    <td class="heading-row">Price</td>
+				</tr>
+			</thead>
+            <tbody>
+				<tr>
+					<td class="component">Processor</td>
+					<td class="selection">AMD Ryzen 7 5800X 3.8 GHz 8-Core</td>
+                    <td class="price">32,000 Tk</td>
+				</tr><tr>
+					<td class="component">CPU Cooler</td>
+					<td class="selection">Deepcool CASTLE 280EX 97.03 CFM Liquid</td>
+                    <td class="price">13,000 Tk</td>
+				</tr><tr>
+					<td class="component">Motherboard</td>
+					<td class="selection">Gigabyte B550 VISION D-P ATX AM4</td>
+                    <td class="price">25,000 Tk</td>
+				</tr>  <tr>
+					<td class="component">Memory</td>
+					<td class="selection">G.Skill TridentZ 16GB (2x 8GB) DDR4-3600 CL16</td>
+                    <td class="price"></td>
+				</tr><tr>
+					<td class="component">Storage</td>
+					<td class="selection">Samsung 970 Evo Plus 1 TB M.2-2280 NVME SSD</td>
+                    <td class="price">10,400 Tk</td>
+				</tr><tr>
+					<td class="component">Graphics</td>
+					<td class="selection">NVIDIA GeForce RTX 3080 10 GB Founders Edition</td>
+                    <td class="price"></td>
+				</tr><tr>
+					<td class="component">Power Supply</td>
+					<td class="selection">Corsair SF 750 W 80+ Platinum Certified Fully Modular SFX</td>
+                    <td class="price">13,500 Tk</td>
+				</tr><tr>
+					<td class="component">Case</td>
+					<td class="selection">Lian Li O11 Dynamic Mini ATX Mid Tower</td>
+                    <td class="price">9,500 Tk</td>
+				</tr><tr>
+					<td class="component">Monitor</td>
+					<td class="selection">Samsung CHG90 49" 3849x1080 144Hz</td>
+                    <td class="price"></td>
+				</tr>                        
+			</tbody>
+        </table>
+    </div>
+
+	<!-- single product -->
+	<div class="build_description block container">
+        <h4>Description</h4>
+        <hr>
+        <div class="markdown">
+            <p>
+                7 years ago today I built my first PC, parentally funded, and fully budget build. Now, one Bachelors's degree and pandemic later I'm running my dream PC.... and it can still barely run Star Citizen. Some things never change!
+            </p>
+            <p>
+                I built this PC during the Pandemic after waiting in lines and overnights amongst gamers, miners, and scalpers all fiending for a GPU. After many late nights (and beers with the boys) I finally had the missing piece to my build a Founders Edition RTX 3080.
+            </p>
+            <p>
+                This build was a lot of hard work and harder overnighters. To the people still looking for GPUs, don't give up!
+            </p>
+        </div>
+    </div>
+    <section id="module-ugcActions">
+        <ul class="ugcActions list-unstyled">
+            <li></li>
+        </ul>
+    </section>
+
+	<div class="container">
+		<div class="comment-template">
+			<h4>Leave a comment</h4>
+			<p>If you have a comment dont feel hesitate to send us your opinion.</p>
+			<form id="contactForm" action="#">
+				<p>
+					<input id="C_name" type="text" placeholder="Your Name">
+					<input id="C_mail" type="email" placeholder="Your Email">
+				</p>
+				<p><textarea  name="comment" id="comment" cols="30" rows="10" placeholder="Your Message"></textarea></p>
+				<p><input id="btn" type="submit" onclick="sendMessage()" value="Submit"></p>
+			</form> <br> <br> <br>
+			<h4>Comments</h4>
+			<div class="review">
+				<ul id="comList">
+				</ul>
+			</div> 
+		</div>
+	</div>
+
+
+    
+
+	<!-- footer -->
+	<div class="footer-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box get-in-touch">
+						<h2 class="widget-title">Get in Touch</h2>
+						<ul>
+							<li>510. ShopnoChura, Nirjhor, Dhaka Cantonment</li>
+							<li>mahdimohtasim@gmail.com</li>
+							<li>+880 1740 997 497</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box pages">
+						<h2 class="widget-title">Pages</h2>
+						<ul>
+							<li><a href="../index.html">Home</a></li>
+							<li><a href="../about.html">About</a></li>
+							<li><a href="../shop.html">Shop</a></li>
+							<li><a href="../news.html">News</a></li>
+							<li><a href="../contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box subscribe">
+						<h2 class="widget-title">Subscribe</h2>
+						<p>Subscribe to our mailing list to get the latest updates.</p>
+						<form action="../index.html">
+							<input type="email" placeholder="Email">
+							<button type="submit"><i class="fas fa-paper-plane"></i></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end footer -->
+	
+	<!-- jquery -->
+	<script src="../assets/js/jquery-1.11.3.min.js"></script>
+	<!-- bootstrap -->
+	<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+	<!-- count down -->
+	<script src="../assets/js/jquery.countdown.js"></script>
+	<!-- isotope -->
+	<script src="../assets/js/jquery.isotope-3.0.6.min.js"></script>
+	<!-- waypoints -->
+	<script src="../assets/js/waypoints.js"></script>
+	<!-- owl carousel -->
+	<script src="../assets/js/owl.carousel.min.js"></script>
+	<!-- magnific popup -->
+	<script src="../assets/js/jquery.magnific-popup.min.js"></script>
+	<!-- mean menu -->
+	<script src="../assets/js/jquery.meanmenu.min.js"></script>
+	<!-- sticker js -->
+	<script src="../assets/js/sticker.js"></script>
+	<!-- main js -->
+	<script src="../assets/js/main.js"></script>
+	<!-- comment js -->
+	<script src="../assets/js/comment.js"></script>
+
+</body>
+</html>

@@ -2508,6 +2508,188 @@ ul.social-link-team li a {
 
 /* -----------------------------------------------------------------------------
 
+# Build Guide
+
+----------------------------------------------------------------------------- */
+
+.guide_types{
+  background-color: #012738;
+  padding: 20px;
+  margin: 40px 0;
+  border-bottom: 2px, solid, #004daa;
+  border-radius: 5px;
+}
+
+.guide_types h3{
+  color: #fff;
+}
+
+.guide_num{  
+  padding: 30px;
+  padding-bottom: 0;
+}
+
+.guide-image{  
+  color: rgb(211, 207, 201);
+  box-sizing: inherit;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+  border-color: initial;
+  list-style: none;
+  list-style-image: initial;
+  margin: 0 0.5rem 0.5rem;
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1rem;
+  align-self: end;
+  min-height: 256px;
+  background-color: #FFFFFF;
+  width: 90%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.guide-image--1{
+  -webkit-text-size-adjust: 100%;
+  --darkreader-neutral-background: #131516;
+  --darkreader-neutral-text: #d8d4cf;
+  --darkreader-selection-background: #004daa;
+  --darkreader-selection-text: #e8e6e3;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(211, 207, 201);
+  font-feature-settings: "tnum" 1;
+  list-style: none;
+  list-style-image: initial;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  border-color: initial;
+  line-height: 0;
+  grid-column: 1;
+  grid-row: 1/3;
+  justify-self: center;
+  align-self: center;
+}
+
+.guide-image--2{
+  -webkit-text-size-adjust: 100%;
+  --darkreader-neutral-background: #131516;
+  --darkreader-neutral-text: #d8d4cf;
+  --darkreader-selection-background: #004daa;
+  --darkreader-selection-text: #e8e6e3;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(211, 207, 201);
+  font-feature-settings: "tnum" 1;
+  list-style: none;
+  list-style-image: initial;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  border-color: initial;
+  line-height: 0;
+  grid-column: 2;
+  grid-row: 1;
+  justify-self: center;
+  align-self: center;
+}
+
+.guide-image--3{
+  -webkit-text-size-adjust: 100%;
+  --darkreader-neutral-background: #131516;
+  --darkreader-neutral-text: #d8d4cf;
+  --darkreader-selection-background: #004daa;
+  --darkreader-selection-text: #e8e6e3;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(211, 207, 201);
+  font-feature-settings: "tnum" 1;
+  list-style: none;
+  list-style-image: initial;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  border-color: initial;
+  line-height: 0;
+  grid-column: 2;
+  grid-row: 2;
+  justify-self: center;
+  align-self: center;
+}
+
+.build_description{
+  background-color: #012738;
+  padding: 75px;
+  margin: 40px auto;
+}
+
+.build_description h4{
+  color: rgb(211, 207, 201);
+}
+
+.build_description hr{
+  border: 1px solid #3B8AF2;
+}
+
+.markdown h2{ 
+  color: rgb(211, 207, 201);
+  word-wrap: break-word;
+  box-sizing: inherit;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  line-height: 1.5;
+  font-weight: 700;
+  border-color: initial;
+  text-transform: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 2rem 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+.markdown p { 
+  color: rgb(211, 207, 201);
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  border-color: initial;
+  word-wrap: break-word;
+}
+
+.component{
+  width: 150px;
+}
+
+.selection{
+  width: 600px;
+}
+
+.price{
+  width: 100px;
+}
+
+.shop{
+  width: 100px;
+}
+
+/* -----------------------------------------------------------------------------
+
 # Shop Page Styles
 
 ----------------------------------------------------------------------------- */
@@ -2650,7 +2832,7 @@ ul.product-share li {
 
 ul.product-share li a {
   display: block;
-  color: #051922;
+  color: rgb(195, 195, 195);
   margin-right: 10px;
 }
 
@@ -2659,19 +2841,20 @@ ul.product-share li a {
 }
 
 table.cart-table {
-  border: 1px solid #f9f9f9;
+  border: 1px solid #071F2C;
   width: 100%;
 }
 
 thead {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #071F2C;
 }
 
 tr.table-head-row th {
-  border-right: 1px solid #efefef;
+  border-right: 1px solid #071F2C;
   padding: 15px;
   font-weight: 500;
   text-align: center;
+  color: rgb(195, 195, 195);
 }
 
 tr.table-head-row th:last-child {
@@ -2690,30 +2873,32 @@ td.product-image img {
 }
 
 .cart-table-wrap tbody tr td {
-  border: 1px solid #efefef;
+  border: 1px solid #071F2C;
   padding: 20px 0;
-  color: #051922;
+  color: rgb(195, 195, 195);
 }
 
 thead.cart-table-head tr {
-  background-color: #efefef;
+  background-color: #071F2C;
 }
 
 td.product-quantity input {
   margin-bottom: 0;
+  background-color: rgb(195, 195, 195);
 }
 
 td.product-remove a {
-  color: #051922;
+  color: rgb(195, 195, 195);
 }
 
 .total-section table.total-table {
-  border: 1px solid #efefef;
+  border: 1px solid #071F2C;
+  color: rgb(195, 195, 195);
   width: 100%;
 }
 
 tr.table-total-row {
-  background-color: #efefef;
+  background-color: #071F2C;
 }
 
 tr.table-total-row th {
@@ -2723,7 +2908,7 @@ tr.table-total-row th {
 }
 
 table.total-table tbody tr.total-data td {
-  border: 1px solid #efefef;
+  border: 1px solid #071F2C;
   padding: 19px 15px;
 }
 
@@ -2741,6 +2926,10 @@ tr.total-data td strong {
 
 .coupon-section {
   margin-top: 50px;
+}
+
+.coupon-section input #coupon_no{  
+  background-color: rgb(195, 195, 195);
 }
 
 .coupon-section h3 {
@@ -2867,6 +3056,7 @@ table.order-details tbody td {
   color: #fff;
   line-height: 35px;
   margin-bottom: 100px;
+  padding: 40px;
 }
 
 .section-head h2{
@@ -2924,6 +3114,83 @@ table.order-details tbody td {
 
 #comList span{
   color: #000;
+}
+
+/* -----------------------------------------------------------------------------
+
+# Sell Page Styles
+
+----------------------------------------------------------------------------- */
+
+.blah{
+  padding-top: 30px;
+  color: #fff;
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+.blah span{
+  font-size: 15px;
+}
+
+.blah-menu{
+  background-color: #fff;
+  width: 220px;
+  padding: 15px 15px;
+  margin: 0;
+  left: 0;
+  top: 50px;
+  border-radius: 3px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-box-shadow: 0 0 20px #555555;
+  box-shadow: 0 0 20px #555555;
+}
+
+.drop:hover + .blah-menu{
+  display: block;
+  text-align: left;
+}
+
+.radio{
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 10px 50px 10px 10px;
+  font-size: 20px;
+}
+
+.radio_input{
+  display: none;
+}
+
+.radio_radio{
+  width: 1em;
+  height: 1em;
+  border: 2px solid #d8e4e2;
+  border-radius: 50%;
+  margin-right: 10px;
+  box-sizing: border-box;
+  padding: 2px;
+}
+
+.radio_radio::after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: #2e88c8;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: transform 0.15s;
+}
+
+.radio_input:checked + .radio_radio::after{
+  transform: scale(1);
+
 }
 
 /* -----------------------------------------------------------------------------
