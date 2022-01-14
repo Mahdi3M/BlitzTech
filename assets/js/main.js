@@ -87,7 +87,6 @@
 
         // projects filters isotop
         $(".filter").on('click', function(){
-            window.location.assign("Components.html");
             filter(this);
         });
         function filter(selected) {
